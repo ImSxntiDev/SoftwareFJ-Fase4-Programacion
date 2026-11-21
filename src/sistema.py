@@ -29,6 +29,7 @@ class SistemaGestion:
         """Registra un cliente validando parámetros, datos y duplicados."""
         datos = {"documento": documento, "nombre": nombre, "correo": correo, "telefono": telefono}
         try:
+            # Primero se revisan los parámetros y luego se construye el objeto.
             for clave, valor in datos.items():
                 if valor is None:
                     raise ParametroFaltanteError(f"Falta el parámetro '{clave}'.")
