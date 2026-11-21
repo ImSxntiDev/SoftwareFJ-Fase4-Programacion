@@ -2,6 +2,7 @@
 
 **Curso:** Programación (213023A_2204) — UNAD  
 **Fase:** 4 — Componente práctico: Prácticas simuladas  
+**Estudiante:** Santiago David Martinez Hernandez  
 **Repositorio público:** https://github.com/ImSxntiDev/SoftwareFJ-Fase4-Programacion  
 **Lenguaje:** Python 3.12 · **Base de datos:** ninguna · **Dependencias externas:** ninguna
 
@@ -29,7 +30,7 @@ Implementar, usando programación orientada a objetos, un sistema estable y robu
 SoftwareFJ_Fase4/
 ├── main.py                    # Ejecución secuencial de 19 segmentos
 ├── README.md                  # Este documento
-├── EVIDENCIA.md               # Borrador del PDF de evidencia grupal
+├── EVIDENCIA_Fase4_SantiagoDavidMartinezHernandez.pdf  # Documento PDF para entrega
 ├── requirements.txt           # Sin dependencias externas
 ├── .gitignore                 # Archivos generados por Python
 ├── logs/
@@ -86,7 +87,7 @@ Todos los eventos y errores quedan en `logs/sistema.log` con el formato:
 | Archivo de logs | `src/registro.py` + `logs/sistema.log` |
 | Sin base de datos | Solo listas internas en `SistemaGestion` y un archivo de texto para logs |
 | Al menos 10 operaciones completas | 19 segmentos en `main.py` (7 válidas y 9 fallidas controladas, más inicio y resumen) |
-| Documentación línea por línea | Comentario final en cada instrucción de todos los archivos `.py` |
+| Documentación del código | Docstrings en módulos, clases y métodos, con comentarios reducidos a lo esencial |
 | Ejecución secuencial y correcciones | `main.py` numerado + `pruebas/test_sistema.py` con 11 pruebas en orden |
 
 ---
