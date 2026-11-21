@@ -32,6 +32,7 @@ class TestSistemaSoftwareFJ(unittest.TestCase):
             manejador.close()
         self.directorio.cleanup()
 
+    # El orden de las pruebas respeta la secuencia de la ejecución principal.
     def test_01_cliente_valido(self):
         self.assertEqual(self.cliente.documento, "CC000001")
         self.assertEqual(self.cliente.correo, "ana@correo.com")
