@@ -52,6 +52,7 @@ class Reserva:
         if self._estado != "pendiente":
             raise OperacionNoPermitidaError("Solo se puede confirmar una reserva pendiente.")
         try:
+            # El error se detecta en el servicio y se registra aquí una sola vez.
             self._costo = self._servicio.calcular_costo(self._duracion, impuestos, descuento)
         except ServicioNoDisponibleError as error:
             self._registrador.error(f"Confirmación fallida {self._servicio.identificador}: {error}")
@@ -63,6 +64,7 @@ class Reserva:
             self._estado = "confirmada"
             self._registrador.evento(f"Reserva confirmada: {self._cliente.documento} -> {self._servicio.identificador}")
         finally:
+            # finally corre tanto en éxito como en error.
             self._registrador.evento(f"Confirmación finalizada con estado '{self._estado}'.")
         return self._costo
 
