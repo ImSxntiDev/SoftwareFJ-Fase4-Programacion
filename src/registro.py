@@ -14,6 +14,7 @@ class RegistroEventos:
         for manejador_actual in list(self.logger.handlers):
             self.logger.removeHandler(manejador_actual)
             manejador_actual.close()
+        # Un solo manejador evita que cada evento se escriba varias veces.
         manejador = logging.FileHandler(self.ruta, encoding="utf-8")
         manejador.setLevel(logging.DEBUG)
         formato = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
