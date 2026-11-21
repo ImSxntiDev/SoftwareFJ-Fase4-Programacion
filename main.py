@@ -84,7 +84,7 @@ def ejecutar():
     try:
         reserva_exitosa = sistema.crear_reserva("CC100001", "SAL-01", 2)
         costo = reserva_exitosa.confirmar(impuestos=0.19, descuento=0.10)
-        mostrar(11, f"Reserva exitosa confirmada por $${costo} (estado: ${reserva_exitosa.estado}).")
+        mostrar(11, f"Reserva exitosa confirmada por ${costo} (estado: ${reserva_exitosa.estado}).")
     except Exception as error:
         mostrar(11, f"ERROR inesperado: ${error}")
 
