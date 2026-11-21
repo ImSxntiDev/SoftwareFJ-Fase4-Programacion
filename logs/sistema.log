@@ -1,34 +1,33 @@
-2026-11-21 10:55:07,782 | INFO | Cliente registrado: CC100001
-2026-11-21 10:55:07,782 | INFO | Intento de registro con documento 'CC100001' finalizado.
-2026-11-21 10:55:07,782 | ERROR | Registro de cliente fallido: El documento debe tener dos letras y entre 6 y 10 dígitos.
-2026-11-21 10:55:07,782 | INFO | Intento de registro con documento 'ABC123' finalizado.
-2026-11-21 10:55:07,782 | ERROR | Registro de cliente fallido: El correo electrónico no tiene un formato válido.
-2026-11-21 10:55:07,782 | INFO | Intento de registro con documento 'CC100002' finalizado.
-2026-11-21 10:55:07,782 | ERROR | Registro de cliente fallido: Falta el parámetro 'correo'.
-2026-11-21 10:55:07,782 | INFO | Intento de registro con documento 'CC100003' finalizado.
-2026-11-21 10:55:07,782 | INFO | Servicio agregado: SAL-01
-2026-11-21 10:55:07,783 | INFO | Servicio agregado: EQ-01
-2026-11-21 10:55:07,783 | INFO | Servicio agregado: ASE-01
-2026-11-21 10:55:07,783 | INFO | Reserva creada: CC100001 -> SAL-01
-2026-11-21 10:55:07,783 | INFO | Reserva confirmada: CC100001 -> SAL-01
-2026-11-21 10:55:07,783 | INFO | Confirmación finalizada con estado 'confirmada'.
-2026-11-21 10:55:07,783 | INFO | Reserva cancelada: SAL-01
-2026-11-21 10:55:07,783 | INFO | Servicio agregado: EQ-02
-2026-11-21 10:55:07,783 | INFO | Reserva creada: CC100001 -> EQ-02
-2026-11-21 10:55:07,783 | ERROR | Confirmación fallida EQ-02: El servicio Cámara Pro no está disponible.
-2026-11-21 10:55:07,783 | INFO | Confirmación finalizada con estado 'pendiente'.
-2026-11-21 10:55:07,783 | INFO | Reserva creada: CC100001 -> ASE-01
-2026-11-21 10:55:07,783 | ERROR | Error inesperado al confirmar reserva: El descuento debe estar entre 0 y 1.
+2026-11-21 11:13:59,733 | INFO | Cliente registrado: CC100001
+2026-11-21 11:13:59,733 | INFO | Intento de registro con documento 'CC100001' finalizado.
+2026-11-21 11:13:59,733 | ERROR | Registro de cliente fallido: El documento debe tener dos letras y entre 6 y 10 dígitos.
+2026-11-21 11:13:59,733 | INFO | Intento de registro con documento 'ABC123' finalizado.
+2026-11-21 11:13:59,733 | ERROR | Registro de cliente fallido: El correo electrónico no tiene un formato válido.
+2026-11-21 11:13:59,733 | INFO | Intento de registro con documento 'CC100002' finalizado.
+2026-11-21 11:13:59,733 | ERROR | Registro de cliente fallido: Falta el parámetro 'correo'.
+2026-11-21 11:13:59,733 | INFO | Intento de registro con documento 'CC100003' finalizado.
+2026-11-21 11:13:59,734 | INFO | Servicio agregado: SAL-01
+2026-11-21 11:13:59,734 | INFO | Servicio agregado: EQ-01
+2026-11-21 11:13:59,734 | INFO | Servicio agregado: ASE-01
+2026-11-21 11:13:59,734 | INFO | Reserva creada: CC100001 -> SAL-01
+2026-11-21 11:13:59,734 | INFO | Reserva confirmada: CC100001 -> SAL-01
+2026-11-21 11:13:59,734 | INFO | Confirmación finalizada con estado 'confirmada'.
+2026-11-21 11:13:59,734 | INFO | Reserva cancelada: SAL-01
+2026-11-21 11:13:59,734 | INFO | Servicio agregado: EQ-02
+2026-11-21 11:13:59,734 | INFO | Reserva creada: CC100001 -> EQ-02
+2026-11-21 11:13:59,734 | ERROR | Confirmación fallida EQ-02: El servicio Cámara Pro no está disponible.
+2026-11-21 11:13:59,734 | INFO | Confirmación finalizada con estado 'pendiente'.
+2026-11-21 11:13:59,734 | INFO | Reserva creada: CC100001 -> ASE-01
+2026-11-21 11:13:59,735 | ERROR | Error inesperado al confirmar reserva: El descuento debe estar entre 0 y 1.
 Traceback (most recent call last):
-  File "C:\Users\ADMIN\Desktop\Universidad\Programación\SoftwareFJ_Fase4\src\reserva.py", line 56, in confirmar
-    self._costo = self._servicio.calcular_costo(self._duracion, impuestos, descuento)  # Calcula el costo.
+  File "C:\Users\ADMIN\Desktop\Universidad\Programación\SoftwareFJ_Fase4\src\reserva.py", line 55, in confirmar
+    self._costo = self._servicio.calcular_costo(self._duracion, impuestos, descuento)
                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\ADMIN\Desktop\Universidad\Programación\SoftwareFJ_Fase4\src\servicios.py", line 64, in calcular_costo
-    raise CalculoInconsistenteError("El descuento debe estar entre 0 y 1.")  # Lanza error propio.
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\Desktop\Universidad\Programación\SoftwareFJ_Fase4\src\servicios.py", line 63, in calcular_costo
+    raise CalculoInconsistenteError("El descuento debe estar entre 0 y 1.")
 src.excepciones.CalculoInconsistenteError: El descuento debe estar entre 0 y 1.
-2026-11-21 10:55:07,789 | INFO | Confirmación finalizada con estado 'pendiente'.
-2026-11-21 10:55:07,789 | INFO | Reserva creada: CC100001 -> ASE-01
-2026-11-21 10:55:07,789 | INFO | Reserva confirmada: CC100001 -> ASE-01
-2026-11-21 10:55:07,789 | INFO | Confirmación finalizada con estado 'confirmada'.
-2026-11-21 10:55:07,789 | INFO | Reserva procesada: ASE-01
+2026-11-21 11:13:59,738 | INFO | Confirmación finalizada con estado 'pendiente'.
+2026-11-21 11:13:59,739 | INFO | Reserva creada: CC100001 -> ASE-01
+2026-11-21 11:13:59,739 | INFO | Reserva confirmada: CC100001 -> ASE-01
+2026-11-21 11:13:59,739 | INFO | Confirmación finalizada con estado 'confirmada'.
+2026-11-21 11:13:59,739 | INFO | Reserva procesada: ASE-01
