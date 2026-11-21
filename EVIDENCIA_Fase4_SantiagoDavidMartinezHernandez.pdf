@@ -34,72 +34,103 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R >> >> /Contents 6 0 R /Annots [12 0 R] >>
 endobj
 6 0 obj
-<< /Length 6005 >>
+<< /Length 6494 >>
 stream
 BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 247.24 765.89 Tm (Introducci\363n) Tj ET
 0.180 0.420 0.720 RG 1.20 w 58 755.89 m 537.28 755.89 l S
 BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 739.89 Tm (Este documento presenta la evidencia del componente pr\341ctico de la Fase 4 del curso) Tj ET
 BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 727.59 Tm (Programaci\363n, elaborado a partir del Anexo 3 y de la Gu\355a para el desarrollo del) Tj ET
 BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 715.29 Tm (componente pr\341ctico. La soluci\363n corresponde al Sistema Integral de Gesti\363n de) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 702.99 Tm (Clientes, Servicios y Reservas de la empresa Software FJ.) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 686.69 Tm (La aplicaci\363n se implement\363 en Python 3.12 sin base de datos. Se emplearon abstracci\363n,) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 674.39 Tm (encapsulaci\363n, herencia, polimorfismo y sobrecarga simulada de m\351todos, adem\341s de) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 662.09 Tm (excepciones personalizadas y un archivo de log para registrar eventos y errores.) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 645.79 Tm (El desarrollo se realiz\363 de forma independiente porque no se recibi\363 respuesta ni) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 633.49 Tm (invitaci\363n de los dem\341s integrantes del grupo para trabajar en el repositorio creado) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 621.19 Tm (por ellos. Por este motivo se public\363 un repositorio propio y abierto, con el fin de) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 608.89 Tm (que cualquier compa\361ero pueda revisarlo o continuarlo.) Tj ET
-BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 163.24 574.59 Tm (Enlace del repositorio en GitHub) Tj ET
-0.180 0.420 0.720 RG 1.20 w 58 564.59 m 537.28 564.59 l S
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 548.59 Tm (Repositorio p\372blico creado para la entrega:) Tj ET
-BT /F1 10.5 Tf 0.180 0.420 0.720 rg 1 0 0 1 58.00 532.29 Tm (https://github.com/ImSxntiDev/SoftwareFJ-Fase4-Programacion) Tj ET
-0.18 0.42 0.72 RG 0.60 w 58.00 530.29 m 380.14 530.29 l S
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 510.29 Tm (Dentro del repositorio se encuentran main.py, con la ejecuci\363n secuencial de 19) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 497.99 Tm (segmentos; logs/sistema.log, con los eventos y errores registrados;) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 485.69 Tm (pruebas/test_sistema.py, con 11 pruebas unitarias; y el directorio src/, con el c\363digo) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 473.39 Tm (orientado a objetos.) Tj ET
-BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 247.24 439.09 Tm (Conclusiones) Tj ET
-0.180 0.420 0.720 RG 1.20 w 58 429.09 m 537.28 429.09 l S
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 413.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 413.09 Tm (La abstracci\363n permiti\363 definir contratos comunes \(Entidad y Servicio\) y reutilizar) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 398.09 Tm (validaciones en las tres especializaciones.) Tj ET
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 379.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 379.09 Tm (El polimorfismo se evidencia en describir_servicio\(\) y validar_parametros\(\),) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 364.09 Tm (implementados de forma distinta en cada servicio.) Tj ET
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 345.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 345.09 Tm (Python no admite sobrecarga r\355gida en tiempo de ejecuci\363n; se simul\363 con @overload) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 330.09 Tm (para an\341lisis est\341tico y par\341metros opcionales.) Tj ET
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 311.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 311.09 Tm (Los bloques try/except/else/finally y el encadenamiento raise ... from ...) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 296.09 Tm (mantuvieron la aplicaci\363n activa ante datos inv\341lidos, operaciones no permitidas y) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 281.09 Tm (servicios no disponibles.) Tj ET
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 262.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 262.09 Tm (El archivo logs/sistema.log cumpli\363 el rol de persistencia permitido y facilit\363 la) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 247.09 Tm (trazabilidad de cada evento y error.) Tj ET
-BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 228.09 Tm (\225) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 228.09 Tm (La ejecuci\363n secuencial y las 11 pruebas unitarias confirman que el sistema es) Tj ET
-BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 213.09 Tm (estable, modular y extensible sin base de datos.) Tj ET
-BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 163.24 176.09 Tm (Referencias bibliogr\341ficas \(APA\)) Tj ET
-0.180 0.420 0.720 RG 1.20 w 58 166.09 m 537.28 166.09 l S
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 150.09 Tm (Cuevas \301lvarez, A. \(2016\). Python 3: curso pr\341ctico. RA-MA Editorial.) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 133.09 Tm (Silva, F. D. \(2025\). Basics of using GitHub [Objeto virtual de informaci\363n]. Repositorio) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 119.09 Tm (Institucional UNAD. https://repository.unad.edu.co/handle/10596/75882) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 102.09 Tm (Universidad Nacional Abierta y a Distancia. \(2026a\). Gu\355a para el desarrollo del) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 88.09 Tm (componente pr\341ctico - Fase 4: Pr\341cticas simuladas [Documento del curso].) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 702.99 Tm (Clientes, Servicios y Reservas de la empresa Software FJ \(Universidad Nacional Abierta) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 690.69 Tm (y a Distancia [UNAD], 2026a, 2026b\).) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 674.39 Tm (La aplicaci\363n se implement\363 en Python 3.12 sin base de datos. Se emplearon abstracci\363n,) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 662.09 Tm (encapsulaci\363n, herencia, polimorfismo y sobrecarga simulada de m\351todos, adem\341s de) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 649.79 Tm (excepciones personalizadas y un archivo de log para registrar eventos y errores \(Van) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 637.49 Tm (Rossum & Drake Jr., 2024; Cuevas \301lvarez, 2016\).) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 621.19 Tm (El desarrollo se realiz\363 de forma individual con autorizaci\363n escrita del Ing.) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 608.89 Tm (Alexander L\363pez T\351llez, docente del curso. La constancia se public\363 en el foro del) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 596.59 Tm (grupo 41 y el repositorio propio qued\363 abierto para su revisi\363n y seguimiento \(UNAD,) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 584.29 Tm (2026a; Silva, 2025; Zambrano, 2025\).) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 567.99 Tm (Declaraci\363n de uso de inteligencia artificial: se utiliz\363 apoyo de herramientas de) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 555.69 Tm (inteligencia artificial para organizar y revisar fragmentos del c\363digo y del documento.) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 543.39 Tm (El dise\361o, la ejecuci\363n, las pruebas y la verificaci\363n final fueron realizados por el) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 531.09 Tm (estudiante, quien asume la autor\355a y responsabilidad del trabajo entregado.) Tj ET
+BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 163.24 496.79 Tm (Enlace del repositorio en GitHub) Tj ET
+0.180 0.420 0.720 RG 1.20 w 58 486.79 m 537.28 486.79 l S
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 470.79 Tm (Repositorio p\372blico creado para la entrega:) Tj ET
+BT /F1 10.5 Tf 0.180 0.420 0.720 rg 1 0 0 1 58.00 454.49 Tm (https://github.com/ImSxntiDev/SoftwareFJ-Fase4-Programacion) Tj ET
+0.18 0.42 0.72 RG 0.60 w 58.00 452.49 m 380.14 452.49 l S
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 432.49 Tm (Dentro del repositorio se encuentran main.py, con la ejecuci\363n secuencial de 19) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 420.19 Tm (segmentos; logs/sistema.log, con los eventos y errores registrados;) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 407.89 Tm (pruebas/test_sistema.py, con 11 pruebas unitarias; y el directorio src/, con el c\363digo) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 395.59 Tm (orientado a objetos. La organizaci\363n del historial en GitHub sigue las buenas pr\341cticas) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 383.29 Tm (descritas por Silva \(2025\) y Zambrano \(2025\).) Tj ET
+BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 146.44 348.99 Tm (Desarrollo y evidencias de ejecuci\363n) Tj ET
+0.180 0.420 0.720 RG 1.20 w 58 338.99 m 537.28 338.99 l S
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 322.99 Tm (La soluci\363n qued\363 distribuida en m\363dulos: entidades.py define Entidad y Cliente;) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 310.69 Tm (servicios.py define Servicio y sus tres especializaciones; reserva.py gestiona estados) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 298.39 Tm (y excepciones; excepciones.py agrupa la jerarqu\355a de errores; registro.py centraliza el) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 286.09 Tm (archivo de log y sistema.py administra las listas sin base de datos. main.py encadena) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 273.79 Tm (los 19 segmentos y pruebas/test_sistema.py verifica 11 reglas.) Tj ET
+BT /F2 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 257.49 Tm (1. Ejecuci\363n secuencial \(python main.py\): 19/19 segmentos, 0 errores no) Tj ET
+BT /F2 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 245.19 Tm (controlados.) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 228.89 Tm ([01] Inicio de la ejecuci\363n secuencial.) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 216.89 Tm ([02] Cliente v\341lido registrado: Ana Torres) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 204.89 Tm ([03] Error controlado \(documento inv\341lido\): El documento debe tener dos letras y entre 6 y 10 d\355gitos.) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 192.89 Tm ([11] Reserva exitosa confirmada por $107100.0 \(estado: confirmada\).) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 180.89 Tm ([15] Error encadenado: no se pudo confirmar \(servicio no disponible\).) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 168.89 Tm ([19] El archivo logs/sistema.log contiene todos los eventos y errores.) Tj ET
+BT /F2 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 150.89 Tm (2. Pruebas unitarias \(python -m unittest discover -s pruebas -v\): 11/11 OK.) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 134.59 Tm (test_07_reserva_valida_y_estados ... ok) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 122.59 Tm (test_09_cancelacion_no_permitida ... ok) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 110.59 Tm (test_10_servicio_no_disponible_encadenado ... ok) Tj ET
+BT /F1 8.6 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 98.59 Tm (Ran 11 tests in 0.026s - OK) Tj ET
+BT /F2 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 80.59 Tm (3. Registro real en logs/sistema.log:) Tj ET
 endstream
 endobj
 7 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 837 >>
+<< /Length 4497 >>
 stream
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 783.89 Tm (Universidad Nacional Abierta y a Distancia. \(2026b\). Anexo 3: Problema a desarrollar) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 769.89 Tm (Fase 4 [Documento del curso].) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 752.89 Tm (Van Rossum, G., & Drake Jr, F. L. \(2024\). El tutorial de Python. Python Software) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 738.89 Tm (Foundation. https://docs.python.org/es/3.12/tutorial/errors.html) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 721.89 Tm (Zambrano, J. P. \(2025\). Introducci\363n al uso de GitHub [Objeto virtual de informaci\363n].) Tj ET
-BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 707.89 Tm (Repositorio Institucional UNAD. https://repository.unad.edu.co/handle/10596/75876) Tj ET
+BT /F1 8.2 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 783.89 Tm (2026-11-21 11:13:59,733 | ERROR | Registro de cliente fallido: documento inv\341lido.) Tj ET
+BT /F1 8.2 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 771.89 Tm (2026-11-21 11:13:59,734 | ERROR | Confirmaci\363n fallida EQ-02: servicio no disponible.) Tj ET
+BT /F1 8.2 Tf 0.350 0.350 0.350 rg 1 0 0 1 66.00 759.89 Tm (2026-11-21 12:04:48,847 | INFO  | Reserva confirmada: CC100001 -> ASE-01) Tj ET
+BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 247.24 721.89 Tm (Conclusiones) Tj ET
+0.180 0.420 0.720 RG 1.20 w 58 711.89 m 537.28 711.89 l S
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 695.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 695.89 Tm (La abstracci\363n permiti\363 definir contratos comunes \(Entidad y Servicio\) y reutilizar) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 680.89 Tm (validaciones en las tres especializaciones.) Tj ET
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 661.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 661.89 Tm (El polimorfismo se evidencia en describir_servicio\(\) y validar_parametros\(\),) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 646.89 Tm (implementados de forma distinta en cada servicio.) Tj ET
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 627.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 627.89 Tm (Python no admite sobrecarga r\355gida en tiempo de ejecuci\363n; se simul\363 con @overload) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 612.89 Tm (para an\341lisis est\341tico y par\341metros opcionales.) Tj ET
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 593.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 593.89 Tm (Los bloques try/except/else/finally y el encadenamiento raise ... from ...) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 578.89 Tm (mantuvieron la aplicaci\363n activa ante datos inv\341lidos, operaciones no permitidas y) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 563.89 Tm (servicios no disponibles.) Tj ET
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 544.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 544.89 Tm (El archivo logs/sistema.log cumpli\363 el rol de persistencia permitido y facilit\363 la) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 529.89 Tm (trazabilidad de cada evento y error.) Tj ET
+BT /F2 11 Tf 0.180 0.420 0.720 rg 1 0 0 1 60.00 510.89 Tm (\225) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 510.89 Tm (La ejecuci\363n secuencial y las 11 pruebas unitarias confirman que el sistema es) Tj ET
+BT /F1 10.5 Tf 0.100 0.100 0.100 rg 1 0 0 1 76.00 495.89 Tm (estable, modular y extensible sin base de datos.) Tj ET
+BT /F2 15 Tf 0.080 0.240 0.480 rg 1 0 0 1 163.24 458.89 Tm (Referencias bibliogr\341ficas \(APA\)) Tj ET
+0.180 0.420 0.720 RG 1.20 w 58 448.89 m 537.28 448.89 l S
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 432.89 Tm (Cuevas \301lvarez, A. \(2016\). Python 3: curso pr\341ctico. RA-MA Editorial.) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 415.89 Tm (Silva, F. D. \(2025\). Basics of using GitHub [Objeto virtual de informaci\363n]. Repositorio) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 401.89 Tm (Institucional UNAD. https://repository.unad.edu.co/handle/10596/75882) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 384.89 Tm (Universidad Nacional Abierta y a Distancia. \(2026a\). Gu\355a para el desarrollo del) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 370.89 Tm (componente pr\341ctico - Fase 4: Pr\341cticas simuladas [Documento del curso].) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 353.89 Tm (Universidad Nacional Abierta y a Distancia. \(2026b\). Anexo 3: Problema a desarrollar) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 339.89 Tm (Fase 4 [Documento del curso].) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 322.89 Tm (Van Rossum, G., & Drake Jr, F. L. \(2024\). El tutorial de Python. Python Software) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 308.89 Tm (Foundation. https://docs.python.org/es/3.12/tutorial/errors.html) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 58.00 291.89 Tm (Zambrano, J. P. \(2025\). Introducci\363n al uso de GitHub [Objeto virtual de informaci\363n].) Tj ET
+BT /F1 10 Tf 0.100 0.100 0.100 rg 1 0 0 1 78.00 277.89 Tm (Repositorio Institucional UNAD. https://repository.unad.edu.co/handle/10596/75876) Tj ET
 endstream
 endobj
 9 0 obj
@@ -112,7 +143,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
 12 0 obj
-<< /Type /Annot /Subtype /Link /Rect [58.00 529.29 380.14 544.29] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/ImSxntiDev/SoftwareFJ-Fase4-Programacion) >> >>
+<< /Type /Annot /Subtype /Link /Rect [58.00 451.49 380.14 466.49] /Border [0 0 0] /A << /Type /Action /S /URI /URI (https://github.com/ImSxntiDev/SoftwareFJ-Fase4-Programacion) >> >>
 endobj
 xref
 0 13
@@ -123,14 +154,14 @@ xref
 0000000287 00000 n 
 0000001936 00000 n 
 0000002107 00000 n 
-0000008164 00000 n 
-0000008318 00000 n 
-0000009206 00000 n 
-0000009303 00000 n 
-0000009406 00000 n 
-0000009512 00000 n 
+0000008653 00000 n 
+0000008807 00000 n 
+0000013356 00000 n 
+0000013453 00000 n 
+0000013556 00000 n 
+0000013662 00000 n 
 trailer
 << /Size 13 /Root 1 0 R >>
 startxref
-9711
+13861
 %%EOF
