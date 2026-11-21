@@ -1,0 +1,2 @@
+# El proyecto usa únicamente la biblioteca estándar de Python 3.12.
+# No hay paquetes externos que instalar.
