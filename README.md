@@ -45,7 +45,7 @@ SoftwareFJ_Fase4/
 │   └── sistema.py             # SistemaGestion: listas internas sin BD
 └── pruebas/
     ├── __init__.py
-    └── test_sistema.py        # 11 pruebas unitarias ejecutadas en orden
+    └── test_sistema.py        # 11 pruebas unitarias
 ```
 
 ---
@@ -88,7 +88,7 @@ Todos los eventos y errores quedan en `logs/sistema.log` con el formato:
 | Sin base de datos | Solo listas internas en `SistemaGestion` y un archivo de texto para logs |
 | Al menos 10 operaciones completas | 19 segmentos en `main.py` (7 válidas y 9 fallidas controladas, más inicio y resumen) |
 | Documentación del código | Docstrings en módulos, clases y métodos y comentarios `#` breves en puntos clave |
-| Ejecución secuencial y correcciones | `main.py` numerado + `pruebas/test_sistema.py` con 11 pruebas en orden |
+| Ejecución secuencial y pruebas | `main.py` numerado + `pruebas/test_sistema.py` con 11 pruebas |
 
 ---
 
