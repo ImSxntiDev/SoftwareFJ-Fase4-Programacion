@@ -44,7 +44,7 @@ class Servicio(Entidad, ABC):
             raise DatoInvalidoError("La tarifa debe ser mayor que cero.")
         return float(tarifa)
 
-    # Python no sobrecarga en ejecución: se declaran firmas y se usa una sola implementación.
+    # En Python la sobrecarga se simula con firmas y parámetros opcionales.
     @overload
     def calcular_costo(self) -> float: ...
 
@@ -82,7 +82,7 @@ class Servicio(Entidad, ABC):
     def describir(self):
         return f"{self._nombre} (id={self.identificador}, tarifa={self._tarifa_base})"
 
-# Cada servicio valida sus propios datos y sobrescribe su descripción.
+# Cada servicio valida lo suyo y describe su propio detalle.
 class ReservaSala(Servicio):
     """Reserva de salas con control de capacidad."""
 

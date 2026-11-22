@@ -19,7 +19,7 @@ def mostrar(segmento, mensaje):
 
 def ejecutar():
     """Ejecuta 19 segmentos y continúa aunque aparezcan errores controlados."""
-    # Cada segmento tiene su propio bloque para que un fallo no detenga los siguientes.
+    # Cada bloque es independiente para que un error no frene el resto.
     registro = RegistroEventos("logs/sistema.log")
     sistema = SistemaGestion(registro)
     mostrar(1, "Inicio de la ejecución secuencial.")

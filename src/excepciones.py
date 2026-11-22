@@ -1,6 +1,6 @@
 """Excepciones personalizadas del sistema Software FJ."""
 
-# Todas las excepciones del sistema derivan de esta clase base.
+# Todas las excepciones propias cuelgan de esta clase.
 class ErrorSoftwareFJ(Exception):
     """Error base de la aplicación Software FJ."""
 

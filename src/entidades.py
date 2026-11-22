@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 import re
 from .excepciones import DatoInvalidoError
 
-# Las validaciones se ejecutan antes de asignar los atributos privados.
+# Primero valido y después guardo cada dato.
 class Entidad(ABC):
     """Abstracción base con identificador validado y descripción obligatoria."""
 
@@ -28,7 +28,7 @@ class Entidad(ABC):
         """Devuelve una descripción legible de la entidad."""
         pass
 
-# Cliente reutiliza el identificador validado que define Entidad.
+# El documento ya viene validado desde Entidad.
 class Cliente(Entidad):
     """Cliente con datos personales validados y encapsulados."""
 
